@@ -7,6 +7,9 @@ class ApplicationController < ActionController::API
   # def unauthorized_new
   #   head :unauthorized
   # end
+   # def unauthorized_new
+  #   head :unauthorized
+  # end
   
   # Method for checking if current_user is admin or not.
   def authorize_as_admin
